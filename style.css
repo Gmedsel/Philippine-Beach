@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('sun.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+    display: block;
+
+}
+ p {
+    background: linear-gradient(to right,white,gray,skyblue,aqua,lightblue);
+    float: left;
+    font-size: 23px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    padding: 5px;
+    height: 50px;
+    width: 110px;
+    text-align: center;
+    color:aqua;
+    border-radius: 5px;
+    text-shadow: 1px 1px #ff0000, 2px 2px #00ff00, 3px 3px #0000ff;
+
+    
+ }
+
+
+
+ul li {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    padding: 6px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    
+}
+
+header {
+    background-color: black;
+     width: 100%;
+     height: 50px;
+     font-weight: bold;
+    
+     
+}
+a {
+  
+        background:transparent;
+        color: #fff;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        font-family: sans-serif;
+        font-size: 15px;
+
+     
+    
+}
+header a:hover {
+    background: transparent;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+
+    padding: 5px;
+    transform: scale(1.1);
+    color: skyblue;
+    display: block;
+
+    
+
+      
+}
+button {
+    background-color: lightblue;
+    border: none;
+    color: skyblue;
+    padding: 15px;
+    width: 10%;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 80vh;
+    margin-top: 50vh;
+    cursor: pointer;
+    border-radius: 4px;
+   
+    
+
+
+  }
+  
+  .btn:hover {
+    background: blue;
+    float: right;
+  }
+  
+  .login-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height: 350px;
+    margin-right: 350px;
+  }
+  
+  .login-form h4 {
+    margin-bottom: 25px;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Rubik Pixels', cursive;
+   
+    
+    
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 38px;
+    font-size: 2px;
+  }
+  
+  .form-group label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 16px;
+  
+    transform: translateY(10px);
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #999;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-group input:focus,
+  .form-group input:valid {
+    outline: none;
+    border-bottom-color: black;
+  }
+  
+  .form-group input:focus + label,
+  .form-group input:valid + label {
+    transform: translateY(-30px);
+    font-size: 14px;
+    color: black;
+  }
+  
+  input[type="submit"] {
+    background-color: skyblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    font-family: 'Castoro Titling', cursive;
+    
+    
+  }
+  input[type="submit"]:hover {
+      background-color: aquamarine;
+      transform: scale(1.2);
+  }
+  .container {
+   
+      height: 113vh;
+    
+      float: right;
+      margin-top: -350px;
+      margin-left: 10px;
+     
+  
+      
+  }
+  button i{
+    float: left;
+    margin-left: 15vh;
+    background-color: gray;
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.ti-beach {
+    color: white;
+    height: 30px;
+    
+}
+
+
+}
+i {
+    
+  
+    height: 20px;
+    width: 20px;
+   color: white;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   display: inline-block;
+   
+    list-style-type: none;
+}
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    padding: 0.7em 1.7em;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 0.5em;
+    background: transparent;
+    border: 3px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+    margin-left: 15vh;  
+    font-family: 'Cabin Sketch', cursive;
+    animation-name: move;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    
+
+  }
+  
+  .button2:hover {
+    color: gray;
+    background-color: #00FFFF;
+    transform: scale(1.2);
+   
+  }
+  .social-media ul li i  {
+      margin-bottom: -80px;
+    width: 20px;
+    height: 40px;
+    line-height: 5px;
+    margin-left: 10 rem;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    transition: all 0.3s ease-in-out;
+    list-style-type: none;
+    display: flex;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: weight;
+  
+  }
